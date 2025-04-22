@@ -1,3 +1,8 @@
-#page-title{ /*title of the page*/
-    color: navy;
+:root {
+    --text-color: #1a1a1a; /* Or any color you prefer */
 }
+
+#page-title { /* title of the page */
+    color: var(--text-color, navy);
+}
+
