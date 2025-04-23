@@ -1,7 +1,7 @@
 # 📝 Standup General Template
 
 **Date:** 2025-4-01  
-**Team:** Team Powell Rangers
+**Team:** Team Powell Rangers<br />
 **Organizer:** Krystal Kwan 
 
 ---
