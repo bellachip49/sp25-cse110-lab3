@@ -39,7 +39,7 @@ main {
     border-width: 2px;
     border-color: #ccc;
     border-radius: 10px;
-  }
+}
 
 body{
     background-color: #95d1f0 !important;
@@ -55,11 +55,9 @@ form {
 
 h1{
     font-size: 2em;
-    text-align: left;
 }
 
 h2{
-    text-decoration: none;
     font-size: 16pt;
 }
 
