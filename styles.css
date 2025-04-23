@@ -1,3 +1,6 @@
+
+
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -61,6 +64,7 @@ form {
     /* padding-bottom: 500000px !important; */
 }
 
+
 h1{
     font-size: 2em;
 }
@@ -68,6 +72,7 @@ h1{
 h2{
     font-size: 16pt;
 }
+
 
 p{
     display: none;
@@ -139,4 +144,13 @@ a:hover {
       display: block;
       padding: 8px 0;
     }
+  }
+
+
+  input[type="checkbox"] {
+    accent-color: #007BFF;
+  }
+
+  *{
+    box-sizing: border-box;
   }
