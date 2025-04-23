@@ -1,6 +1,7 @@
 
 
 
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -154,3 +155,43 @@ a:hover {
   *{
     box-sizing: border-box;
   }
+
+  nav > ul {
+    background-color: #eee;
+  }
+
+  h2 ~ p {
+    color: #555;
+  }
+
+  h2 + p {
+    font-style: italic;
+  }
+
+  div.section-wrapper {
+    border-radius: 8px;
+  }
+
+  form:has(input[type="checkbox"]) {
+    border: 2px dashed #999;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+  
+      li {
+        margin: 5px;
+  
+        a {
+          text-decoration: none;
+          color: navy;
+  
+          &:hover {
+            color: darkred;
+          }
+        }
+      }
+    }
+  }
+  
