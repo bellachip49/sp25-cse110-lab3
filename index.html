@@ -1,120 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Lab Week 2 Practice</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab Week 2 Practice</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
-  <body>
-    <header>
-        <h1>Team 19 - Meeting Minutes</h1>
-        <nav>
-            <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#agenda">Agenda</a></li>
-            <li><a href="#survey">Extra Post-Meeting Survey</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="meeting-info">
-            <h2>Meeting Information</h2>
-            <p><strong>Date:</strong> April 14, 2025<br>
-            <strong>Time:</strong> 10:00 AM<br>
-            <strong>Location:</strong> Zoom</p>
-          </section>
-          <section id="agenda">
-            <h2>Agenda</h2>
-            <ol>
-              <li>Project updates and standup</li>
-              <li>Announcements</li>
-              <li>Discussion + Q&A</li>
-            </ol>
-          </section>
-      
-          <section id="discussion">
-            <h2>Discussion Notes</h2>
-            <p><strong>Project Updates:</strong> The team is ahead of schedule. <em>Testing phase begins next week.</em></p>
-            <p><strong>Assignments:</strong> Tasks were divided among the team members.<br>See the summary below.</p>
-            <details>
-              <summary>Announcements -> (click to open list)</summary>
-              <ul>
-                <li><b>Tuesday meeting:</b> Center Hall 109 @ 4pm</li>
-                <li><b>Wednesday meeting:</b> York Hall (Location TBD) @ 8am</li>
-                <li><b>Thursday meeting:</b> Somewhere in Muir @ 6pm</li>
-              </ul>
-            </details>
-            <hr>
-            <div>This is a <span>div and span</span> example.</div>
-          </section>
+<body style="padding-bottom: 30px;">
 
-          <section>
-            <h2>Reference Media</h2>
-            <img src="officeroom.jpg" width="500" alt="Team Logo">
-            <br><br><br>
-            <h3>Music to play before meeting</h3>
-            <audio controls>
-              <source src="waiting-room-music.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-            </audio>
-            <br><br><br>
-            <video width="500" controls>
-              <source src="city-skyline.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </section>
-          <section id="form">
-            <h2>Feedback Form</h2>
-            <form>
-              <fieldset>
-                <legend>Thank you for your feedback.</legend>
-          
-                <!-- Text input -->
-                <label for="username">Name:</label><br>
-                <input type="text" id="username" name="username"><br><br>
-          
-                <!-- Date input -->
-                <label for="birthday">Date of Birth:</label><br>
-                <input type="date" id="birthday" name="birthday"><br><br>
-          
-                <!-- Checkbox input -->
-                <label><input type="checkbox" name="notifs"> Get notified for upcoming meetings</label><br><br>
-          
-                <!-- Radio inputs -->
-                <p>Choose your preferred way to meet:</p>
-                <label><input type="radio" name="platform" value="in-person"> In-person</label><br>
-                <label><input type="radio" name="platform" value="remote"> Remote</label><br><br>
-          
-                <!-- Datalist -->
-                <label for="fav-language">Favorite Programming Language:</label><br>
-                <input list="languages" id="fav-language" name="fav-language">
-                <datalist id="languages">
-                  <option value="C++">
-                  <option value="Java">
-                  <option value="Kotlin">
-                  <option value="Python">
-                </datalist><br><br>
-          
-                <!-- Select dropdown -->
-                <label for="experience">How much experience do you have with web dev?</label><br>
-                <select id="experience" name="experience">
-                  <option value="beginner">Beginner</option>
-                  <option value="intermediate">Intermediate</option>
-                  <option value="advanced">Advanced</option>
-                </select><br><br>
-          
-                <!-- Textarea -->
-                <label for="comments">Any other questions or comments?</label><br>
-                <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
-          
-                <!-- Submit Button -->
-                <button type="button" class="btn btn-outline-dark">Submit</button>
-              </fieldset>
-            </form>
-          </section>
-          
+  <div class="container nav-div">
+    <header class="text-center">
+      <h1>Team 19 - Meeting Minutes</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="nav nav-pills justify-content-center">
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#survey">Extra Post-Meeting Survey</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="section-wrapper" id="meeting-info">
+        <h2>Meeting Information</h2>
+        <p><strong>Date:</strong> April 14, 2025<br>
+           <strong>Time:</strong> 10:00 AM<br>
+           <strong>Location:</strong> Zoom</p>
+      </div>
+      <div class="section-wrapper" id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Project updates and standup</li>
+          <li>Announcements</li>
+          <li>Discussion + Q&A</li>
+        </ol>
+      </div>
+
+      <div class="section-wrapper" id="discussion">
+        <h2>Discussion Notes</h2>
+        <p><strong>Project Updates:</strong> The team is ahead of schedule. <em>Testing phase begins next week.</em></p>
+        <p><strong>Assignments:</strong> Tasks were divided among the team members.<br>See the summary below.</p>
+
+        <details>
+          <summary>Announcements -> (click to open list)</summary>
+          <ul>
+            <li><strong>Tuesday meeting:</strong> Center Hall 109 @ 4pm</li>
+            <li><strong>Wednesday meeting:</strong> York Hall (Location TBD) @ 8am</li>
+            <li><strong>Thursday meeting:</strong> Somewhere in Muir @ 6pm</li>
+          </ul>
+        </details>
+        <hr>
+        <div>This is a <span>div and span</span> example.</div>
+      </div>
+
+      <div class="section-wrapper grid-media">
+        <h2>Reference Media</h2>
+        <img src="officeroom.jpg" style="width: 100%; max-width: 500px;" alt="Team Logo" class="img-responsive">
+        <br><br>
+
+        <h3>Music to play before meeting</h3>
+        <audio controls>
+          <source src="waiting-room-music.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <br><br>
+
+        <video width="500" controls>
+          <source src="city-skyline.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="section-wrapper" id="form">
+        <h2 id="survey">Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Thank you for your feedback.</legend>
+
+            <div class="form-group">
+              <label for="username">Name:</label>
+              <input type="text" id="username" name="username" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="birthday">Date of Birth:</label>
+              <input type="date" id="birthday" name="birthday" class="form-control">
+            </div>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="notifs"> Get notified for upcoming meetings
+              </label>
+            </div>
+
+            <div class="form-group">
+              <p>Choose your preferred way to meet:</p>
+              <label class="radio-inline"><input type="radio" name="platform" value="in-person"> In-person</label>
+              <label class="radio-inline"><input type="radio" name="platform" value="remote"> Remote</label>
+            </div>
+
+            <div class="form-group">
+              <label for="fav-language">Favorite Programming Language:</label>
+              <input list="languages" id="fav-language" name="fav-language" class="form-control">
+              <datalist id="languages">
+                <option value="C++">
+                <option value="Java">
+                <option value="Kotlin">
+                <option value="Python">
+              </datalist>
+            </div>
+
+            <div class="form-group">
+              <label for="experience">How much experience do you have with web dev?</label>
+              <select id="experience" name="experience" class="form-control">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="comments">Any other questions or comments?</label>
+              <textarea id="comments" name="comments" rows="4" class="form-control"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+      </div>
     </main>
+  </div>
+
 </body>
 </html>
